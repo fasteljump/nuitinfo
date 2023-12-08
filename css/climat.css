@@ -1,0 +1,19 @@
+.titre1{
+    background-color: #29524A;
+    text-align: center;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titre2{
+    height: 100%;
+    width: 100%;    
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}

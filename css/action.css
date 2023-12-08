@@ -1,0 +1,47 @@
+.box{
+    display: flex;
+    background-color: beige;
+}
+.titre1{
+    background-color: #29524A;
+    text-align: center;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titre2{
+
+    margin: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    width: 40%;
+    height: 100%;
+    background-color: #1f433b;
+    font-size: 115%;
+    border-radius: 5%;
+}
+.image{
+    margin: 7%;
+    margin-top: 5%;
+    width: 50%;
+    height: 100%;
+
+}
+.titre3{
+
+    margin: 5%;
+    margin: 5%;
+
+    padding: 10px;
+    width: 85;
+    height: 90%;
+    background-color:beige;
+    font-size: 115%;
+    border-radius: 5%;
+}

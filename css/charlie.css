@@ -1,0 +1,37 @@
+.service-item {
+    height: 5%;
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-item a {
+    height: 500%;
+    width: 500%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  main {
+    justify-content: center;
+
+
+
+  }
+  
+  body {
+    background-color: #bfcbc8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+html, body {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+  	background-color: whitesmoke;
+}
+
+div.top {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: min-content;
+}
+
+div#bandeau {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: #1f0068;
+	text-align: center;
+}
+
+nav.top {
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	background-color: #6c75ca;
+}
+
+nav.top ul {
+	display: flex;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	width: 100%;
+}
+
+nav.top ul li {
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+nav.top ul li a {
+	text-align: center;
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+  	padding: 5px;
+	font-family: League Spartan, sans-serif;
+	font-size: 30px;
+	color: whitesmoke;
+	
+	width: 100%;
+	text-decoration: none;
+}
+
+nav.top ul li a:hover {
+	color: #1f0068;
+	background-color: wheat;
+  	border-radius: 13px;
+	transition: 0.8s all;
+}
+
+nav.top ul li a:not(hover) {
+	background-color: #6c75ca;
+	color: whitesmoke;
+	transition: 0.8s all;
+}
+
+
+main {
+	padding-left: 1%;
+	padding-right: 1%;
+	width: auto;
+	height: 100%;
+	font-family: League Spartan, sans-serif;
+	font-size: 25px;
+  	background-color: whitesmoke;
+}
+
+footer {
+	background-color: #636363;
+	text-align: center;
+	font-family: League Spartan, sans-serif;
+	font-size: 15px;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+}
+
+/* COORDRAW */
+
+.bouton {
+	background-color : #0c8dbf;
+	border: none;
+	color: #f3e4e4;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Leelawadee UI, sans-serif;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 3rem;
+}
+
+.text {
+	text-align: center;
+	font-family: Leelawadee UI, sans-serif;
+	font-size: 25px;
+	color: steelblue;
+	padding:15px
+}
+
+nav.coordraw-buttons ul li.btn a:hover {
+	color: #c42f2f;
+	background-color: #fff;
+	transition: 0.8s all;
+}
+
+nav.coordraw-buttons ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+/* PIXEL ART*/
+
+.art {
+    display: table;
+    border-spacing: 1px;
+    background-color: black;
+    border: 5px solid black;
+}
+
+.dessin {
+ display: table-row;
+}
+
+.pix {
+display: table-cell;
+background-color: whitesmoke;
+width: 50px;
+height: 50px;
+}
+
+.syle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+	background-color: #29524A;
+	color: #fff;
+	padding: 30px 0; /* Ajustez selon vos besoins */
+	text-align: center; /* Cette propriété centre le texte horizontalement */
+  
+  }
+  
+  .container {
+  
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	  }
+	  
+	  .logo img {
+		width: 15%;
+		
+	  }
+	  
+	  .graphique {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	  }
+	  
+	  .graphique img {
+		width: 25%;
+		
+	  }
+	  
+	  .header-text h1 {
+		font-size: 24px;
+		color: #fff;
+		margin: 30px 0; /* Ajoutez la valeur de la marge verticale (en haut et en bas) ici */
+		text-align: center;
+	  }
+	  
+	  nav ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	  }
+	  
+	  nav ul li {
+		margin-right: 20px;
+	  }
+	  
+	  nav ul li a {
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		display: flex;
+		align-items: center;
+		padding: 50px 100px;
+	  }
+	  
+	  nav ul li a:hover {
+		text-decoration: none;
+		color: #3e8f77;
+		font-weight: bold;
+		background-color: #1f433b;
+		border-radius: 50%;
+		transition: 1s;
+		
+	  }
+	  
